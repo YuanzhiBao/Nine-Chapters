@@ -16,6 +16,7 @@ public class FindNumberRotate {
 		}
 		return start;
 	}
+	//the key to solve this problem is to locate the answer to the very right or very left, otherwise the answer is in the middle
 	public int searchRotateArray(int[] nums, int target, int spot) {
 		if (spot == -1) {
 			return -1;
